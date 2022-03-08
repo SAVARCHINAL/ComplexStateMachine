@@ -1,0 +1,13 @@
+ID,Name,PNGFilename,Text,x,y,visible
+0,Next,,Next,1000,650,yes,
+1,Restart,,Restart,550,650,yes,
+2,Select,,Select,148,550,yes,
+2,Select,,Select,415,550,yes
+2,Select,,Select,680,550,yes,
+2,Select,,Select,950,550,yes,
+3,Select1,,Select,510,480,yes,
+3,Select2,,Select,880,480,yes,
+
+
+
+
