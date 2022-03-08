@@ -1,5 +1,5 @@
 StateName,PNGFilename,ClickableName,NextState
-Startup,assets/startup.png,Next,Product
+Startup,assets/startup.png,Start,Product
 Product,assets/product.png,Next,Instructions
 Instructions,assets/instructions.png,Next,Players
 Players,assets/player.png,,,

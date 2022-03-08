@@ -8,7 +8,21 @@ var moodImage;
 var bkColor = '#031927';
 var textColor = '#E9D6EC';
 
+var scores = [];
+const Justin = 1;
+const Celia =2 ;
+const Ashley = 3;
+const Herbert = 4;
 
+var displayPecentages = true;
+var displayHorizontalBars = true;
+
+var xLeftMargin = 50;     // for percentages
+var xBarOffset = 30;
+var yTopMargin = 50;
+var yOffset = 50;
+var barWidth = 30;
+var barSpacing = 50;
 
 
 
@@ -27,8 +41,7 @@ function preload() {
 function setup() {
   createCanvas(1280, 720);
   imageMode(CENTER);
-  img = loadImage('assets/chamber.png');
-
+  initializeScores();
 
   // setup the clickables = this will allocate the array
   clickables = clickablesManager.setup();
@@ -48,15 +61,6 @@ function draw() {
   drawImage();
   drawOther();
   drawUI();
-
-  
-  
- 
-  
-
-
-
-
 }
 
 function setupClickables() {
