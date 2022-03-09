@@ -3,10 +3,10 @@ Startup,assets/startup.png,Start,Product
 Product,assets/product.png,Next, Instructions
 Instructions,assets/instructions.png,Next,Players
 Players,assets/player.png,,,
-Players,,Select,Q1justin
-Players,,Select,P1
-Players,,Select,P1
-Players,,Select,P1
+Players,,Selectjustin,Q1justin
+Players,,Selectcelia,Q1celia
+Players,,Selectashley,Q1ashley
+Players,,Selectherbert,Q2herbert
 Q1justin,assets/Q1justin.png,Select1,A1justin
 A1justin,assets/A1justin.png,Next,Q2justin
 Q1justin,assets/Q1justin.png,Select2,A2justin
